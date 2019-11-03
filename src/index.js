@@ -1,31 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-// import './index.css';
-// import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-// ReactDOM.render(<App />, document.getElementById('root'));
+import "./global.css";
+import Badge from "./components/Badge";
 
-const jsx = (
-	<div>
-		<h1>Hola, soy David.</h1>
-		<p>Soy Ingeniero Frontend.</p>
-	</div>
+const container = document.getElementById("root");
+
+ReactDOM.render(
+	<Badge
+		firstName="David"
+		lastName="Delgado"
+		avatarUrl="https://www.gravatar.com/avatar/avatar?d=identicon"
+		jobTitle="Ingeniero en Informática"
+		twitter="ddelgado"
+	/>,
+	container
 );
-
-const element = React.createElement(
-  'div',
-  {},
-  React.createElement('h1', {}, 'Hola, soy David.'),
-  React.createElement('p', {}, 'Soy Ingeniero Frontend.')
-);
-
-const container = document.getElementById('root');
-
-// ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(element, container);
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
