@@ -20,7 +20,7 @@ class BadgeNew extends React.Component {
 						<div className="col-6">
 							<Badge
 								firstName="David"
-								lastname="Delgado"
+								lastName="Delgado"
 								twitter="ddelgado_4"
 								jobTitle="Ingeniero en Informática"
 								avatarUrl="https://www.gravatar.com/avatar/avatar?d=identicon"
