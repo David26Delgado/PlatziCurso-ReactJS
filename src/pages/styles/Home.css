@@ -1,9 +1,16 @@
 .home-container {
-    overflow: hidden;
+  background: url("/static/media/stars.0abcdfcd.svg"), #1b1b25 repeat;
 }
 
-.home-container__bgi {
-    width: 100vw;
-    height: 100vh;
-    background: url('/static/media/stars.0abcdfcd.svg'), #1b1b25 repeat;
+.text {
+  color: #ffffff !important;
+}
+
+.astronauts {
+  width: 450px;
+}
+
+.platzi-conf,
+.custom-container {
+  width: 210px;
 }
