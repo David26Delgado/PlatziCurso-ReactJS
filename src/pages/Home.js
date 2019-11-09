@@ -25,7 +25,7 @@ function Home() {
                   The easiest way to manage your conference
                 </p>
                 <div className="text-center">
-                  <Link className="btn btn-primary text" to="/badges/new">
+                  <Link className="btn btn-primary text" to="/badges">
                     Start now
                   </Link>
                 </div>

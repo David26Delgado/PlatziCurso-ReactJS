@@ -440,6 +440,14 @@
       "jobTitle": "Lawyer",
       "twitter": "ckaufmanpr",
       "id": "npaYZKI"
+    },
+    {
+      "firstName": "David",
+      "lastName": "Delgado",
+      "email": "test@gmail.com",
+      "jobTitle": "Desarrollador Frontend con React.js",
+      "twitter": "ddelgado_4",
+      "id": "Gv0JmOY"
     }
   ]
 }

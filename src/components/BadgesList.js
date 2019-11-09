@@ -3,6 +3,7 @@ import React from "react";
 import "./styles/BadgesList.css";
 import twitterLogo from "../images/twitter-brands.svg";
 import { Link } from "react-router-dom";
+import Gravatar from "./Gravatar";
 
 class BadgesList extends React.Component {
   render() {
@@ -24,7 +25,7 @@ class BadgesList extends React.Component {
             <li key={badge.id}>
               <div className="badge-item">
                 <div className="badge-item__avatar">
-                  <img src={badge.avatarUrl} alt="Avatar" />
+                  <Gravatar email={badge.email} />
                 </div>
                 <div className="badge-item__info">
                   <h5 className="font-weight-bold">
